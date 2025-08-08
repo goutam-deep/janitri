@@ -74,10 +74,97 @@ add(a=10,b=20,c=0)'''
 
 
 
-def factrol(num:int =0):
-    if num==1 or num==0:
-        return 1
-    else:
-        return num * factrol(num-1)
+# def factrol(num:int =0):
+#     if num==1 or num==0:
+#         return 1
+#     else:
+#         return num * factrol(num-1)
 
-factrol()
+# factrol()
+
+
+
+# print(1^4)gu
+# user_input=input("entar a data:")
+# print(type(user_input))
+
+# age=input("enter a age :")
+# # print(type(age)
+# age1=int(age)
+# print(type(age1))
+
+# count=1
+# while count <6:
+#     print("python")
+#     count +=1
+
+# start=1
+# end=int(input("enter end number Ho:"))
+# while start < end :
+#     print(start)
+#     start +=1
+
+# start=int(input("enter a start number ho :"))
+# end= 0
+# while start<end :
+#     print(start)
+#     start -=1
+
+# num=0
+# while num<10:
+    
+#     if num == 5:
+#         continue
+#     num +=1
+
+#     print(num)
+    
+# num=0
+# while num<10:
+#     print(num)
+#     num +=1
+# else:
+#     print("num is no longer  of less 10")
+
+# fruits=["apple","banana","cherry"]
+# for x in fruits:
+#     if x == "banana":
+#         continue
+#     print(x)
+        
+# for x in range(12):
+#     print(x)
+# else:
+#     print("finals finished")
+        
+
+
+# for x in range(6):
+#   if x == 3: continue
+#   print(x)
+# else:
+#   print("Finally finished!")
+
+# dj = ["red", "big", "tasty"]
+# fruits = ["apple", "banana", "cherry"]
+
+# for x in dj:
+#   for y in fruits:
+#     print(x,y)
+# my_array=[7,12,9,4,11]
+# mainval=my_array[0]
+# for i in my_array:
+#     if i<mainval:
+#         mainval=i
+# print(f"lowest value:{mainval}")
+
+# prev2 = 0
+# prev1 = 1
+
+print(0)
+print(1)
+for fibo in range(18):
+    newFibo = prev1 + prev2
+    print(newFibo)
+    prev2 = prev1
+    prev1 = newFibo

@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Page Title</title>
+    <title>From</title>
 </head>
+<body>
+    <form>
+        <lable>Name</lable>
+        <input type="text"><br><br>
+        <lable>Email</lable>
+        <input type="text"><br><br>
+        <lable>Phone</lable>
+        <input type="text"><br><br>
+        <input type="submit">
+    </form>
+    
+</body>
 </html>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
